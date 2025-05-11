@@ -28,6 +28,13 @@ dotnet run
 
 API http://localhost:5000 adresinde çalışacaktır.
 
+### Swagger API Dokümantasyonu
+
+Backend servisimiz çalışır durumdayken Swagger üzerinden API'lerimizi test edebilirsiniz:
+
+- Swagger UI: http://localhost:5000/swagger
+
+
 ### Frontend (Next.js)
 
 1. Frontend klasörüne gidin:
@@ -64,10 +71,18 @@ Aşağıdaki test kullanıcılarını kullanarak giriş yapabilirsiniz:
 ### Özellikler
 
 - JWT tabanlı kimlik doğrulama
+- Swagger UI ile API dokümantasyonu ve test imkanı
 - Kullanıcı kaydı ve girişi
 - Dashboard sayfası (istatistikler ve grafikler)
 - Kullanıcı profili yönetimi
 - Rol tabanlı yetkilendirme
+
+## API Güvenliği
+
+- JWT (JSON Web Token) tabanlı kimlik doğrulama
+- Token bazlı yetkilendirme
+- Rol tabanlı erişim kontrolü
+- Swagger'da Bearer Token desteği
 
 ## Teknolojiler
 
@@ -76,6 +91,7 @@ Aşağıdaki test kullanıcılarını kullanarak giriş yapabilirsiniz:
 - Entity Framework Core (InMemory)
 - JWT Bearer Authentication
 - ASP.NET Core Web API
+- Swagger / OpenAPI
 
 ### Frontend
 - Next.js 15

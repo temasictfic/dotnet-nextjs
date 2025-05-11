@@ -1,0 +1,154 @@
+# .NET gitignore
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.snk
+*.publishsettings
+orleans.codegen.cs
+
+# ReSharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Next.js gitignore
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Frontend specific
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+frontend/auth-dashboard/node_modules
+frontend/auth-dashboard/.next
+frontend/auth-dashboard/.env*.local
+frontend/auth-dashboard/.env
+frontend/auth-dashboard/.vercel
+frontend/auth-dashboard/build
+frontend/auth-dashboard/npm-debug.log*
+frontend/auth-dashboard/yarn-debug.log*
+frontend/auth-dashboard/yarn-error.log*
+frontend/auth-dashboard/.pnpm-debug.log*
+frontend/auth-dashboard/.DS_Store
+frontend/auth-dashboard/.pnp
+frontend/auth-dashboard/.pnp.js
+frontend/auth-dashboard/.yarn/install-state.gz
+frontend/auth-dashboard/coverage
+frontend/auth-dashboard/out
+frontend/auth-dashboard/*.pem
+frontend/auth-dashboard/*.tsbuildinfo
